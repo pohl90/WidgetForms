@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: WidgetForms
+Bundle-SymbolicName: de.pohl.widgetforms;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Marc Pohl
+Require-Bundle: de.pohl.widgetforms.model;bundle-version="1.0.0",
+ de.pohl.widgetforms.model.edit;bundle-version="1.0.0",
+ org.eclipse.swt;bundle-version="3.108.0",
+ org.eclipse.jface
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: de.pohl.widgetforms
+Bundle-ActivationPolicy: lazy
+Export-Package: de.pohl.widgetforms,
+ de.pohl.widgetforms.factories,
+ de.pohl.widgetforms.utils,
+ de.pohl.widgetforms.widgets,
+ de.pohl.widgetforms.widgets.swt
